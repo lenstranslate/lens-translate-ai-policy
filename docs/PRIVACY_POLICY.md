@@ -1,4 +1,4 @@
-# Privacy Policy — Lens Translate AI
+# Privacy Policy — Image Translator
 
 **Last updated: 15 November 2026**
 
@@ -149,3 +149,32 @@ date at the top of this policy.
 | Data encrypted in transit | Yes (HTTPS) |
 | User can request deletion | Yes, in-app (History and Settings) |
 | Data collected for advertising | No |
+
+---
+
+## 13. No warranty on third-party data handling
+
+We take technical measures to keep your data on your device and to use HTTPS for
+the little that leaves it. No system is perfectly secure, and we cannot control
+how a third-party translation provider or your device's speech service handles
+data once it reaches them.
+
+To the maximum extent permitted by applicable law, we accept no liability for any
+unauthorised access, disclosure, loss or misuse of data that occurs outside our
+own application code.
+
+## 14. Your obligations
+
+You are responsible for the content you choose to process. Do not use cloud
+translation for confidential, sensitive or regulated information if you are not
+permitted to share it with a third party. You are responsible for keeping your
+device secure and for complying with the data-protection rules that apply to you.
+
+## 15. Related documents
+
+- [Terms of Service](TERMS_OF_SERVICE.md)
+- [Translation Disclaimer](TRANSLATION_DISCLAIMER.md)
+
+Together these three documents form the complete agreement between you and the
+publisher regarding the app.
+

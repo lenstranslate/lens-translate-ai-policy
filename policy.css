@@ -1,0 +1,43 @@
+/* Shared stylesheet for the Image Translator public legal pages. */
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.65;
+  color: #0B1220;
+  background: #FFF8F1;
+}
+header {
+  background: linear-gradient(140deg, #FFB020, #FF6A00);
+  color: #fff;
+  padding: 44px 24px 36px;
+  text-align: center;
+}
+header h1 { margin: 0 0 6px; font-size: 28px; letter-spacing: -0.4px; }
+header p { margin: 0; opacity: 0.92; font-size: 14px; }
+nav {
+  display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
+  padding: 14px 20px 0;
+}
+nav a {
+  font-size: 13px; color: #B45309; text-decoration: none;
+  padding: 6px 12px; border-radius: 999px; background: #FFEDD5;
+}
+main { max-width: 760px; margin: 24px auto 64px; padding: 0 20px; }
+.card { background: #fff; border: 1px solid #F3E3D3; border-radius: 16px; padding: 24px; margin-bottom: 14px; }
+h2 { font-size: 18px; margin: 0 0 10px; }
+p { margin: 0 0 12px; font-size: 15px; }
+ul { margin: 0 0 12px; padding-left: 20px; }
+li { margin-bottom: 6px; font-size: 15px; }
+strong { font-weight: 700; }
+.note { background: #FFF1E4; border-radius: 12px; padding: 14px 16px; font-size: 14px; margin-bottom: 14px; }
+footer { text-align: center; padding: 0 20px 60px; color: #6B7280; font-size: 13px; }
+a { color: #F26B00; }
+@media (prefers-color-scheme: dark) {
+  body { background: #120C08; color: #FDF3EA; }
+  .card { background: #1C1410; border-color: #33241A; }
+  .note { background: #241A13; }
+  nav a { background: #2A1C11; color: #FDBA74; }
+  footer { color: #C9B6A6; }
+}
